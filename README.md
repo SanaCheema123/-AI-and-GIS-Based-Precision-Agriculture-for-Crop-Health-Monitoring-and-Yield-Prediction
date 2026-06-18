@@ -2,6 +2,10 @@
 
 ## AI and GIS-Based Precision Agriculture for Crop Health Monitoring and Yield Prediction
 
+
+https://github.com/user-attachments/assets/58ed8495-c318-4483-abc2-09d8569c532b
+
+
 ### Overview
 
 PrecisionAgri AI is an intelligent agriculture decision-support system that combines Artificial Intelligence (AI), Geographic Information Systems (GIS), Machine Learning, and Precision Agriculture techniques to monitor crop health, predict agricultural yield, and support data-driven farming decisions.
