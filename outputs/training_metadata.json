@@ -1,0 +1,26 @@
+{
+    "best_yield_model": "Random Forest Regressor",
+    "yield_r2": 0.8507,
+    "best_health_model": "Random Forest Classifier",
+    "health_accuracy": 0.7933,
+    "feature_columns": [
+        "state",
+        "district",
+        "crop",
+        "season",
+        "soil_type",
+        "rainfall_mm",
+        "temperature_c",
+        "humidity_percent",
+        "soil_moisture_percent",
+        "nitrogen",
+        "phosphorus",
+        "potassium",
+        "ph",
+        "ndvi",
+        "evi",
+        "latitude",
+        "longitude",
+        "area_hectare"
+    ]
+}

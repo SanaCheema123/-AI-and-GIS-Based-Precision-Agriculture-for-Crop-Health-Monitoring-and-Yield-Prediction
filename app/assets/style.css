@@ -1,0 +1,240 @@
+.stApp {
+    background: #f8fafc !important;
+    font-family: "Segoe UI", sans-serif !important;
+}
+
+.block-container {
+    padding: 0 1.6rem 2rem 1.6rem !important;
+    max-width: 100% !important;
+}
+
+/* Hide Streamlit default UI */
+#MainMenu,
+footer,
+header,
+section[data-testid="stSidebar"],
+section[data-testid="stSidebarNav"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Working Streamlit navbar buttons from app.py */
+div[data-testid="stHorizontalBlock"] .stButton > button {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border: 1px solid #dbe4ef !important;
+    border-radius: 12px !important;
+    height: 46px !important;
+    font-weight: 700 !important;
+    box-shadow: none !important;
+}
+
+div[data-testid="stHorizontalBlock"] .stButton > button:hover {
+    background: #ecfdf5 !important;
+    color: #16a34a !important;
+    border-color: #16a34a !important;
+}
+
+/* Top logo bar */
+.topbar {
+    height: 82px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    margin: 0 -1.6rem 22px -1.6rem;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    font-size: 36px;
+}
+
+.logo-area h3 {
+    margin: 0;
+    color: #0f172a !important;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo-area p {
+    margin: 0;
+    color: #64748b !important;
+    font-size: 12px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.profile input {
+    border: 1px solid #dbe4ef;
+    padding: 11px 14px;
+    border-radius: 10px;
+    width: 230px;
+    color: #0f172a;
+}
+
+/* Hero */
+.hero-new {
+    background: linear-gradient(120deg, #047857, #22c55e);
+    border-radius: 18px;
+    padding: 32px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 185px;
+    box-shadow: 0 18px 42px rgba(4, 120, 87, 0.20);
+    margin-bottom: 22px;
+}
+
+.hero-new h4,
+.hero-new h1,
+.hero-new p {
+    color: white !important;
+}
+
+.hero-new h1 {
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0 0 12px 0;
+}
+
+.hero-new p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.hero-art {
+    font-size: 72px;
+}
+
+/* Cards */
+.metric-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 24px;
+    min-height: 125px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+    border: 1px solid #edf2f7;
+}
+
+.metric-icon {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metric-card p {
+    margin: 0 0 6px 0;
+    color: #334155 !important;
+    font-weight: 700;
+}
+
+.metric-card h2 {
+    margin: 0;
+    color: #0f172a !important;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.metric-card span {
+    color: #16a34a !important;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Chart boxes */
+.chart-card,
+.table-card {
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+    border: 1px solid #edf2f7;
+    margin-bottom: 20px;
+}
+
+.chart-card h3,
+.table-card h3 {
+    color: #0f172a !important;
+}
+
+/* Fake NDVI map */
+.fake-map {
+    height: 300px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #16a34a, #facc15, #ef4444);
+    position: relative;
+    overflow: hidden;
+}
+
+.farm-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255,255,255,.25) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.25) 1px, transparent 1px);
+    background-size: 35px 35px;
+}
+
+.legend {
+    position: absolute;
+    right: 16px;
+    top: 35px;
+    background: white;
+    color: #0f172a;
+    padding: 14px;
+    border-radius: 12px;
+    line-height: 1.9;
+}
+
+.legend span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 4px;
+}
+
+.green {
+    background: #16a34a;
+}
+
+.yellow {
+    background: #facc15;
+}
+
+.red {
+    background: #ef4444;
+}
+
+/* Text */
+[data-testid="stAppViewContainer"] h1,
+[data-testid="stAppViewContainer"] h2,
+[data-testid="stAppViewContainer"] h3,
+[data-testid="stAppViewContainer"] p,
+[data-testid="stAppViewContainer"] label {
+    color: #0f172a !important;
+}
+
+/* Table */
+[data-testid="stDataFrame"] {
+    border-radius: 14px;
+    overflow: hidden;
+}

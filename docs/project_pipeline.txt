@@ -1,0 +1,10 @@
+AI and GIS-Based Precision Agriculture Pipeline
+
+1. Collect crop yield, soil, weather, and vegetation data.
+2. Clean missing and duplicate records.
+3. Create crop health labels from NDVI, soil moisture, and environmental features.
+4. Train yield prediction regression models.
+5. Train crop health classification models.
+6. Save best models.
+7. Deploy models in Streamlit dashboard.
+8. Visualize GIS-style maps, charts, predictions, and reports.
